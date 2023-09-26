@@ -42,6 +42,9 @@ body{
 
 
 /* Screens */
+#gameStartScreen{
+    height: 100%;
+}
 .screen{
     flex: 1;
     padding: 8px;
@@ -108,9 +111,10 @@ body{
 }
 
 .modal-container{
-    max-height: 800px;
-    max-width: 800px;
+    max-height: 100vh;
+    max-width: 100vw;
     width: calc(100%);
+    text-align-last: center;
     /* height: calc(100% -32px); */
 
     background-color: white;
@@ -121,7 +125,6 @@ body{
 
     position: relative;
     overflow: auto;
-    padding-bottom: 180px;
 }
 .modal-slide{
     animation-name: modal-slide;
@@ -203,6 +206,15 @@ button:disabled{
 
     justify-content: center;
     align-items: center;
+}
+#gameStartBtn{
+    position: relative;
+    top: 4rem;
+    font-family: 'open-sans', sans-serif;
+    font-style: italic;
+    font-size: 14;
+    color: grey;
+    border: none;
 }
 
 .action{
