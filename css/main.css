@@ -41,6 +41,18 @@ body{
 
 
 
+#gameStartScreen{
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+}
+
+.openSansFont{
+    font-family: 'open-sans', sans-serif;
+    font-style: italic;
+    font-size: 14px;
+}
+
 /* Screens */
 #gameStartScreen{
     height: 100%;
